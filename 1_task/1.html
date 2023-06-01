@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="1.css" />
+    <title>1_task</title>
+  </head>
+  <body>
+    <div id="login-container">
+      <h2>Логін</h2>
+      <input type="text" id="username" placeholder="Ім'я користувача" />
+      <input type="password" id="password" placeholder="Пароль" />
+      <button onclick="validateLogin()">Увійти</button>
+      <div id="error-message"></div>
+    </div>
+
+    <div id="main-container" style="display: none">
+      <h2>Кошик</h2>
+      <div id="message-container"></div>
+      <div id="cart-items"></div>
+
+      <h3>Оберіть товари:</h3>
+      <div id="product-list">
+        <button
+          onclick="addToCart('Видеокарта MSI GeForce RTX 3060 VENTUS 3X 12G OC', 16048)"
+        >
+          MSI GeForce RTX 3060 VENTUS 3X 12G OC
+        </button>
+        <button onclick="addToCart('Процессор Intel Core i7-13700K', 18569)">
+          Intel Core i7-13700K
+        </button>
+        <button
+          onclick="addToCart('SSD Kingston SSDNow A400 480GB 2.5 SATAIII 3D V-NAND', 1189)"
+        >
+          Kingston SSDNow A400 480GB 2.5 SATAIII 3D V-NAND
+        </button>
+      </div>
+    </div>
+
+    <script src="1.js"></script>
+  </body>
+</html>

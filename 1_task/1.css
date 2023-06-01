@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#login-container, #main-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-top: 50px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#error-message {
+    color: red;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.success-message {
+    color: green;
+    margin-bottom: 10px;
+}
+
+#cart-items {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+.cart-item span {
+    margin-right: 10px;
+}
+
+.delete-button {
+    color: red;
+    cursor: pointer;
+}
+
+.item-quantity {
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+.item-total {
+    font-weight: bold;
+}
+
+
+
+#message-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
